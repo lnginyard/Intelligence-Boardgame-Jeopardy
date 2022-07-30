@@ -1,1 +1,273 @@
 /* Write your CSS Here. */
+
+/*::before and ::after pseudo-elements allow you to add content to
+ a specific part of an element you have selected in a CSS rule.EG links Emoji*/
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+    font-family:"verdana" ; 
+    
+    font-optical-sizing: auto;
+     
+}
+ 
+:root {
+    --hue-neutral: 233;
+    --hue-wrong: 233;
+    --hue-correct: 233;
+    font-size: 1.2rem
+   
+}
+
+body {
+    --hue: var(--hue-neutral);
+    padding: 400px 50px 20px; 
+    margin: 5%;
+    border:thick ;
+    display: flex;
+    width: 80vw;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 57%, 25%);
+    font-size: 1.8rem;
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+    
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    border-radius: 1px;
+    background-color: rgb(40, 54, 162);
+    padding: 60px;
+    margin-right: 0;
+    box-shadow: 0 0 10px 2px;
+    
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid #ffff00;
+    background-color: hsl(var(--hue), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(223, 241, 28);
+    outline: none;
+    font-size: 1.8rem;
+}
+
+ .btn:hover {
+    border-color: #2a3698;
+}
+ 
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+#exhaust-btn
+ {
+    font-family: fantasy;
+    font-size: 1.8rem;
+    color: rgb(58, 110, 243);
+    font-weight: none;
+    padding: 200px 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 5.5px;
+    background-color: #1d2675;
+    margin: 5px;
+    margin-bottom: 30px;
+    
+}
+#exhaustH-btn
+{
+font-family: fantasy;
+   font-size: 1.8rem;
+   color: rgb(58, 110, 243);
+   font-weight: none;
+   padding: 200px 60px;
+   border-radius: 5px;
+   box-shadow: 0 0 6px 5.5px;
+   background-color: #1d2675;
+   margin: 5px;
+   margin-bottom: 30px;
+   
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-shadow: 3px;
+    font-size: 1.8rem;
+}
+
+
+
+#userAnswer {
+    height: 2vh;
+    width:30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:px ;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(94, 131, 241);
+    background-color: #2a3698;
+    padding: 10px 10px;
+}
+
+#surrender {
+    font-family: fantasy;
+    font-size: 1.44rem;
+    color: rgb(94, 131, 241);
+    font-weight: lightbold;
+    background-color: #2a3698;
+    padding: 30px 100px;
+    box-shadow: 0 0 5px 5.5px;
+    border-radius: 3px;
+    margin-left: 90px;
+}
+
+#game-form {
+    display: flex;
+    font-size: 1.8rem;
+}
+#counterDown {
+
+    font: size 2.8em ;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(25, 220, 25);
+    margin-bottom: 90px;
+    margin-top: 20px;
+
+}
+
+#question {
+    font-family: fantasy 'Trebuchet MS', ;
+    color: antiquewhite;
+    font-weight: none;
+    margin-top: 15px;
+}
+
+#category {
+    font-family: fantasy;
+    color: antiquewhite;
+    font-weight: lighterbold ;
+    margin-bottom: 60px;
+
+}
+
+#scoreMark {
+    
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgb(209, 23, 23);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-width: 6px;
+}
+
+#emptyAnswer {
+    font-size: 15.5rem;
+    color: rgb(204, 204, 194);
+}
+
+#Jeopardy  {
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 5.9rem;
+    color: antiquewhite;
+    font-weight: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 140px;
+}
+
+
+
+@media only screen and (max-width: 400px){
+
+    .container {
+        margin-top:0px;
+        margin-left: 10px;
+        margin-right: 80px;
+        margin-bottom:0px ;
+    }
+     #exhaust-btn{
+    
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 55%;
+
+     }
+
+    #score {
+        
+        font-size: 6rem;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-width: 6px;
+    }
+
+#answer{
+    width: 20%;
+    max-width: 20px;
+    margin-right:  10%; ;
+    margin-left:  5%; ;
+}
+
+#surrender{
+    margin-left:px;
+    padding: 20px 10px;
+}
+#Jeopardy  {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0ex0px;
+}
+
+
+.container {
+    width: 1000px;
+    max-width: 120%;
+    border-radius: 5px;
+    padding-right: 0%;
+    padding-left: 5%;
+    background-color:rgb(64, 0, 255) ;
+     
+    box-shadow: 0 0 10px 2px; 
+}
+
+
+}
+
+

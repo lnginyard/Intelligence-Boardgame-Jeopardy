@@ -15,14 +15,46 @@
     <meta name="keywords" content="Kenzie" />
 
     <!-- Title Page-->
-    <title>Trivia Game</title>
+   
 
     <!-- CSS-->
     <link href="style.css" rel="stylesheet" media="all" />
   </head>
 
   <body>
-   <button id ="question_button">fetch question</button>
+   
+    <div class="container">
+      
+      <div id="questioncontainer" class="hide">
+      <p id="counterDown"></p>
+      <div id="category"></div>
+      <div id="question"></div>
+      <div id="answer-buttons" class="btn-grid">
+      <div id= "questionAnswer"></div>
+    
+      </div>
+      </div>
+      <div>
+         <h1> <span id="category"></span></h1> 
+        </div>
+           <form autocomplete="off"id="game-form">
+            <div id="counterDown"></div> 
+            <h1 id="Jeopardy" ></h1>
+           
+            <input name ="answerImput"type="text" alt=" surrender button " id="userAnswer">
+            <button id="surrender" type="surrender" value="surrender" >Surrender </button>
+            </form> 
+              
+      <div id="score"></div>
+      <div id="scoreMark"></div>
+      <div id="checkAnswer"></div>
+      <div class="controls">
+      <button id="exhaust-btn" class="exhaust-btn-btn"> Exhaust Yourself </button>
+      <button id="exhaustH-btn" class="exhaustH-btn-btn"> Exhaust Harder.. </button>
+      </div>
+        </div>
+  
+    
    <script src="code.js"></script>
   </body>
 </html>
