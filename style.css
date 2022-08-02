@@ -32,7 +32,7 @@ body {
     border-radius: 1px;
     background-color: rgba(0, 0, 5, 0.938);
     padding: ;
-    margin-left: 2px;
+    margin-left: 10px;
     box-shadow: 0 0 50px 2px;
     }
 
@@ -42,11 +42,12 @@ body {
     font-size: 1.9rem;
     color: rgb(94, 131, 241);
     font-weight: none;
-    padding: 280px 80px;
+    padding: 280px 60px;
     border-radius: 5px;
     box-shadow: 0 0 2px 2.5px;
     background-color: #000103f0;
-    margin: 25px;
+    margin-right:  20px;
+    margin-left:34px ;
     margin-bottom: 30px;
     }
 
@@ -62,7 +63,8 @@ body {
    border-radius: 5px;
    box-shadow: 0 0 2px 2.5px;
    background-color: #000103f0;
-   margin: 25px;
+   margin-right: 5px;
+   margin-left:40px ;
    margin-bottom: 30px;
    }
 
@@ -78,34 +80,36 @@ body {
 }
 
 #userAnswer {
-    height: 3.4vh;
+    height: ;
     width: 350px;;
     font-size: 1.8rem;
     color: rgb(94, 131, 241);
     background-color:#000103f0;
     box-shadow: 0 0 5px 2.5px;
     border-radius: 1px; 
-    margin-left: 20px;
-    margin-right:0px ;
+    margin-left: 10px;
+    margin-right: 10px ;
     margin-top: 25px;
     margin-bottom: 20px;
     padding: 10px 0px 10px;
 }
 
 #reset {
-    height: 5vh;
-    width: 390px; 
+    height: vh;
+    width: 350px; 
     font-family: fantasy;
     font-size: 1.8rem;
     color: rgb(94, 131, 241);
     background-color: #000103f0;
     box-shadow: 0 0 5px 2.5px;
     border-radius: 1px; 
-    margin-left: 10px;
+    margin-left: 35px;
     margin-right: 10px;
     margin-top: 25px;
     margin-bottom: 20px;
     padding: 15px 10px 30px;
+
+
 }
 
 #game-form {
@@ -121,8 +125,9 @@ body {
     font-weight: none;
     color: rgb(209, 23, 23);
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
+    margin-right: 20px;
 }
 
 #question {
@@ -130,7 +135,9 @@ body {
     color: rgb(94, 131, 241);
     font-weight: none;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 0px;
     text-align: center;
 }
 
@@ -139,7 +146,8 @@ body {
     font-size: 3.2rem;
     color:rgb(94, 131, 241);
     font-weight: lighterbold ;
-    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-bottom: 60px;
 }
 
 #scoreMark {
@@ -148,14 +156,15 @@ body {
     font-weight: bold;
     color: rgb(209, 23, 23);
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-width: 6px;
 }
 
 #checkAnswer {
-    font-size: 3.5rem;
-    text-align: center;
-    color: rgb(237, 237, 231);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: left;
+    color: rgba(181, 10, 10, 0.695);
 }
 
 #Jeopardy  {

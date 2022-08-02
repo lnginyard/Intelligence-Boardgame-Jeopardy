@@ -61,12 +61,12 @@ resetBtnAnswer.addEventListener("click", function(event) {
     if (userAnswer === "") {
         answerCheck.innerHTML = "";
           setTimeout(function removeMessage() {
-        answerCheck.innerHTML = " 🔳YOU WONT GO 🔳 ";
+        answerCheck.innerHTML = "ANSWER ME ANSWER ME ANSWER ME ANSWER ANSWER ME ANSWER ME ANS"; 
     }, 4000) 
 
     } else if (userAnswer === answerInput.value) {
         score += 1;
-        scoreMark.innerHTML = "  🥇" + score;
+        scoreMark.innerHTML = "  🥇" + score; 
         answerInput.value = "";
         matchContainer.style.background = "Black";
         answerCheck.innerHTML = " 5️⃣0️⃣0️⃣";
@@ -83,7 +83,7 @@ resetBtnAnswer.addEventListener("click", function(event) {
         scoreMark.innerHTML = "";
         questionText.innerHTML = "";
         matchContainer.style.background = "Black";
-        exhaustButton.innerText = "💢 5️⃣0️⃣0️⃣";
+        exhaustButton.innerText = "💢 5️🔟0️⃣0️⃣  :. ";
         exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
         resetBtnAnswer.style.display = "none";
         answerInput.style.display = "none"
@@ -114,7 +114,7 @@ function timer(){
     scoreMark.innerHTML = "";
     questionText.innerHTML = "";
     matchContainer.style.background = "Black";
-    exhaustButton.innerText = "💢 5️⃣0️⃣0️⃣";
+    exhaustButton.innerText = "💢 5️🔟0️⃣0️⃣0️⃣";
     exhaustButtonH.innerText = " 💢5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none"
@@ -147,7 +147,7 @@ function startGame() {
     scoreMark.innerHTML = "";
     questionText.innerHTML = "";
     matchContainer.style.background = "Black";
-    exhaustButton.innerText = "💢 5️⃣0️⃣0️⃣";
+    exhaustButton.innerText = "💢 🔟0️⃣0️⃣0️⃣";
     exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none"
@@ -159,7 +159,7 @@ function startGame() {
 }
 
 getData();
-    exhaustButton.innerText = "💢  5️⃣0️⃣0️⃣";
+    exhaustButton.innerText = "💢 🔟0️⃣0️⃣0️⃣";
     exhaustButtonH.innerText = "💢  5️⃣0️⃣0️⃣0️⃣";
     answerCheck.innerHTML = "";
     resetBtnAnswer.style.display = "block";
@@ -183,7 +183,7 @@ function endGame(){
         questionText.innerHTML = "";
         matchContainer.style.background ="Black";
         scoreMark.innerHTML = " 🥇" + score;
-        answerCheck.innerHTML = " 🔳YOU WONT GO 🔳 ";
+        answerCheck.innerHTML = "ANSWER ME ANSWER ME ANSWER ME ANSWER ME ANSWER ME ANSWER ME ANS";
         setTimeout(function removeMessage() {
         answerCheck.innerHTML = " ";
         }, 2000)
