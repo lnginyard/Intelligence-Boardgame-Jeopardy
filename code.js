@@ -83,12 +83,12 @@ resetBtnAnswer.addEventListener("click", function(event) {
         scoreMark.innerHTML = "";
         questionText.innerHTML = "";
         matchContainer.style.background = "Black";
-        exhaustButton.innerText = "💢 5️🔟0️⃣0️⃣  :. ";
+        exhaustButton.innerText = "💢🔟0️⃣0️⃣0️⃣";
         exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
         resetBtnAnswer.style.display = "none";
         answerInput.style.display = "none"
-        answerCheck.innerHTML = "🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕"+
-         "🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ " 
+        answerCheck.innerHTML = "🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮"+
+         "🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🎮 🆗 ❌ 🎮 🆗 ❌ " 
         + score;
         category ="";
         score = 0;
@@ -114,12 +114,12 @@ function timer(){
     scoreMark.innerHTML = "";
     questionText.innerHTML = "";
     matchContainer.style.background = "Black";
-    exhaustButton.innerText = "💢 5️🔟0️⃣0️⃣0️⃣";
+    exhaustButton.innerText = "💢🔟0️⃣0️⃣0️⃣";
     exhaustButtonH.innerText = " 💢5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none"
-    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 "+
-    " ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌"  
+    answerCheck.innerHTML = "🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕"+
+    " ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ "  
      + score;
     score = 0;
     
@@ -147,12 +147,12 @@ function startGame() {
     scoreMark.innerHTML = "";
     questionText.innerHTML = "";
     matchContainer.style.background = "Black";
-    exhaustButton.innerText = "💢 🔟0️⃣0️⃣0️⃣";
+    exhaustButton.innerText = "💢🔟0️⃣0️⃣0️⃣";
     exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
-    answerInput.style.display = "none"
-    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌  🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 " + 
-    "❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ "
+    answerInput.style.display = "none"   
+    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌  🆕 🎮 🆗 ❌ 🆕 🎮 🆗  ❌  🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌  🆗  ❌  🆕 🎮 🆗   ❌  🆕 🎮 🆗 ❌ 🆕 🎮 🆗" + 
+    "❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗  ❌  🆕 🎮 🆗  ❌ 🆕 🎮 🆗 ❌ 🎮 "
     + score;
     score = 0;
     }
@@ -170,15 +170,15 @@ getData();
 function displayBtn() {
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none";
-    greeted.innerHTML = "❗JEOPARDY";
+    greeted.innerHTML = "❗JEOPARDY ";
 }
 displayBtn();
 
 function endGame(){
 
         score = 0;
-        exhaustButton.innerText = "Restart";
-        exhaustButtonH.innerText = "Restart";
+        exhaustButton.innerText = "💢 RESTARTREST";
+        exhaustButtonH.innerText = "💢 RESTARTREST";
         answerInput.value = "";
         questionText.innerHTML = "";
         matchContainer.style.background ="Black";
