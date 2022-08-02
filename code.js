@@ -61,7 +61,7 @@ resetBtnAnswer.addEventListener("click", function(event) {
     if (userAnswer === "") {
         answerCheck.innerHTML = "";
           setTimeout(function removeMessage() {
-        answerCheck.innerHTML = " 🟦I-Beg-Your-Pardon -Bro🟦 ";
+        answerCheck.innerHTML = " 🔳YOU WONT GO 🔳 ";
     }, 4000) 
 
     } else if (userAnswer === answerInput.value) {
@@ -87,7 +87,8 @@ resetBtnAnswer.addEventListener("click", function(event) {
         exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
         resetBtnAnswer.style.display = "none";
         answerInput.style.display = "none"
-        answerCheck.innerHTML = "🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ " 
+        answerCheck.innerHTML = "🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕"+
+         "🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ " 
         + score;
         category ="";
         score = 0;
@@ -117,7 +118,8 @@ function timer(){
     exhaustButtonH.innerText = " 💢5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none"
-    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌" 
+    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 "+
+    " ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌"  
      + score;
     score = 0;
     
@@ -149,7 +151,8 @@ function startGame() {
     exhaustButtonH.innerText = "💢 5️⃣0️⃣0️⃣0️⃣";
     resetBtnAnswer.style.display = "none";
     answerInput.style.display = "none"
-    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌"
+    answerCheck.innerHTML = " 🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌  🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 " + 
+    "❌ 🆕 🎮🆗 ❌ 🆕 🎮 🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ 🆕 🎮🆗 ❌ "
     + score;
     score = 0;
     }
@@ -180,7 +183,7 @@ function endGame(){
         questionText.innerHTML = "";
         matchContainer.style.background ="Black";
         scoreMark.innerHTML = " 🥇" + score;
-        answerCheck.innerHTML = "🟦I-Beg-Your-Pardon_Bro🟦";
+        answerCheck.innerHTML = " 🔳YOU WONT GO 🔳 ";
         setTimeout(function removeMessage() {
         answerCheck.innerHTML = " ";
         }, 2000)

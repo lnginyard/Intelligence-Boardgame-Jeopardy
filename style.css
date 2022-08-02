@@ -6,16 +6,18 @@
 *::before
 *::after {
     
-    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 100%;
     font-family: fantasy;    
      
 }
  
 body {
 
+    display: flexbox;
     padding: auto;
-    margin: 1;
-    display: flex;
+    margin: 20px;
+    border: auto;
     justify-content: center;
     align-items: center;
     background-color: rgba(9, 8, 8, 0.89);
@@ -29,39 +31,43 @@ body {
     max-width: 80%;
     border-radius: 1px;
     background-color: rgba(0, 0, 5, 0.938);
-    padding: 60px;
-    margin-right: 0;
+    padding: ;
+    margin-left: 2px;
     box-shadow: 0 0 50px 2px;
     }
 
 #exhaust-btn{
+    top: 40px; left: 40px;
     font-family: fantasy;
     font-size: 1.9rem;
     color: rgb(94, 131, 241);
     font-weight: none;
-    padding: 280px 100px;
+    padding: 280px 80px;
     border-radius: 5px;
     box-shadow: 0 0 2px 2.5px;
     background-color: #000103f0;
-    margin: 5px;
+    margin: 25px;
     margin-bottom: 30px;
     }
 
 #exhaustH-btn {
+    
+    top: 40px; left: 40px;
+    
    font-family: fantasy;
    font-size: 1.9rem;
    color: rgb(94, 131, 241);
    font-weight: none;
-   padding: 280px 80px;
+   padding: 280px 60px;
    border-radius: 5px;
    box-shadow: 0 0 2px 2.5px;
    background-color: #000103f0;
-   margin: 5px;
+   margin: 25px;
    margin-bottom: 30px;
    }
 
 #controls {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -110,12 +116,13 @@ body {
 }
 
 #counterDown {
-    font: size 4.8em ;
+    font: size 4.6em ;
     font-family: fantasy;
     font-weight: none;
     color: rgb(209, 23, 23);
-    margin-bottom: 100px;
-    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #question {
@@ -129,7 +136,7 @@ body {
 
 #category {
     font-family: fantasy;
-    font-size: 4.8rem;
+    font-size: 3.2rem;
     color:rgb(94, 131, 241);
     font-weight: lighterbold ;
     margin-bottom: 80px;
@@ -141,16 +148,18 @@ body {
     font-weight: bold;
     color: rgb(209, 23, 23);
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     border-width: 6px;
 }
 
-#emptyAnswer {
-    font-size: 15.5rem;
-    color: rgb(204, 204, 194);
+#checkAnswer {
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(237, 237, 231);
 }
 
 #Jeopardy  {
+
     text-align: center;
     font-family: fantasy;
     font-size: 8.9rem;
@@ -158,8 +167,8 @@ body {
     font-weight: none;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 140px;
+    margin-top: 80px;
+    margin-bottom: 130px;
 }
 
 /* this version is made to work on Iphone !2 Pro(even thought its need to be polish */
